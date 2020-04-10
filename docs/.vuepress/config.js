@@ -3,9 +3,10 @@ module.exports = {
   title: "Group Sources",
   description: "Just playing around",
   themeConfig: {
-    nav: [{ text: "Html", link: "/html/" }],
+    nav: [{ text: "Html", link: "/html/" },{ text: "laigengsen", link: "/laigengsen/" }],
     sidebar: {
-      "/html/": [""]
+      "/html/": [""],
+      "/laigengsen/": [""]
     },
     sidebarDepth: 2,
     lastUpdated: "Last Updated"
